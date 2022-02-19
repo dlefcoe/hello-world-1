@@ -39,6 +39,7 @@ if x == a*b:
 else: 
     print('\n  i give up with you, i bet you dont even know 324x3498\n')
     players_age = input('\n so how old are you thicko \n')
+    players_age = int(players_age)
 if players_age>= 90: 
     players_age= int
     print(' F*ck thats old')
